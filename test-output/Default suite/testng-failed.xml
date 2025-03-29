@@ -6,8 +6,10 @@
       <class name="Tests.HotelBookingTest">
         <methods>
           <include name="setupTest"/>
+          <include name="setupExtent"/>
           <include name="takeScreenshotOnFailure"/>
           <include name="clearOldOutput"/>
+          <include name="flushReports"/>
           <include name="tearDown"/>
           <include name="testHotelBookingWithCoupon"/>
           <include name="setUp"/>
